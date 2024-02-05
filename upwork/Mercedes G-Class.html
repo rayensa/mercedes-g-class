@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes G-Class Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f6f2; /* Light cream color */
+            transition: background-color 0.3s ease;
+        }
+
+        header {
+            background: linear-gradient(to right, #ffd700, #f5af00); /* Gold gradient */
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        nav {
+            background: linear-gradient(to right, #f5af00, #ffd700); /* Reverse gold gradient */
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background: linear-gradient(to right, #ffd700, #f5af00); /* Gold gradient */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #444; /* Dark gray */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            color: #666; /* Gray */
+        }
+
+        a {
+            color: #006400; /* Dark green */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #004000; /* Darker green on hover */
+        }
+
+        /* Gallery styling */
+        #gallery {
+            text-align: center;
+        }
+
+        #gallery img {
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        #gallery img:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Magic cursor effect */
+        body {
+            cursor: url('path-to-custom-cursor.png'), auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mercedes G-Class Website</h1>
+    </header>
+
+    <nav>
+        <a href="#overview">Overview</a> |
+        <a href="#features">Features</a> |
+        <a href="#gallery">Gallery</a>
+    </nav>
+
+    <section id="overview">
+        <h2>Overview</h2>
+        <p>This section provides an overview of the Mercedes G-Class.</p>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <article>
+            <h3>Powerful Engine</h3>
+            <p>The Mercedes G-Class comes with a powerful engine that delivers impressive performance on and off the road.</p>
+        </article>
+        <article>
+            <h3>Luxurious Interior</h3>
+            <p>Experience luxury with the G-Class' high-quality materials, comfortable seating, and advanced technology.</p>
+        </article>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div>
+            <img src="1.jpg" alt="Mercedes G-Class Image 1">
+            <img src="2.jpg" alt="Mercedes G-Class Image 2">
+            <img src="3.jpg" alt="Mercedes G-Class Image 3">
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Mercedes G-Class Website
+    </footer>
+
+</body>
+
+</html>
